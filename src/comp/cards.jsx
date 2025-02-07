@@ -7,7 +7,7 @@ import img3 from "../assets/img3.jpeg"
 import img4 from "../assets/img4.jpeg"  
 import img5 from "../assets/img5.jpeg"
 import img6 from "../assets/img6.jpeg"
-
+import img7 from "../assets/img7.webp"
 class Cards extends Component{
     render(){
         return(
@@ -29,7 +29,10 @@ class Cards extends Component{
                     <Card imgsrc={img5} title="Short Flim"/>
                     </div>
                     <div className="col-md-3">
-                    <Card imgsrc={img6} title="Memory Master    "/>
+                    <Card imgsrc={img6} title="Memory Master"/>
+                    </div>
+                    <div className="col-md-3">
+                    <Card imgsrc={img7} title="Cyber Security WorkShop"/>
                     </div>
 
                 </div>
